@@ -17,6 +17,12 @@ public class GunColorController : MonoBehaviour {
     {
         var otherGameObject = other.gameObject;
 
+        SetColor(otherGameObject);
+
+    }
+
+    public void SetColor(GameObject otherGameObject)
+    {
         var otherGunColorProvider = otherGameObject.GetComponent<GunColorProvider>();
 
         if (otherGunColorProvider == null)
@@ -25,7 +31,6 @@ public class GunColorController : MonoBehaviour {
         SetMaterialOnGameObject(myGun, 0, otherGunColorProvider.gunColor);
         SetMaterialOnGameObject(myWater, 0, otherGunColorProvider.gunColor);
         colorname = otherGunColorProvider.gunColor.name;
-
     }
 
     public string getColorElementName()

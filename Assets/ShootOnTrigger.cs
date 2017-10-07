@@ -85,7 +85,7 @@ public class ShootOnTrigger : MonoBehaviour {
 
     }
 
-    private void HitObject(GameObject targetGameObject)
+    public void HitObject(GameObject targetGameObject)
     {
         // targetGameObject.SetActive(false);
         ChangeVisbility(targetGameObject, false);
