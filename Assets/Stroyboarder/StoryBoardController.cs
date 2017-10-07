@@ -39,7 +39,7 @@ public class StoryBoardController : MonoBehaviour, IStoryBoardController {
 
         try
         {
-            shouldIwait = elements[currentPosition].Exectue();
+            shouldIwait = elements[currentPosition].Execute();
         } catch (Exception e)
         {
 

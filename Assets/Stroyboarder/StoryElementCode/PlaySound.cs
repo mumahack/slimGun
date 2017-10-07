@@ -8,7 +8,7 @@ public class PlaySound : StoryGameObject {
     public bool waitForEnd = false;
     AudioSource audiosource;
 
-    public override bool Exectue()
+    public override bool Execute()
     {
         
 

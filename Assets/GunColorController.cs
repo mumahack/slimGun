@@ -6,7 +6,9 @@ using UnityEngine;
 public class GunColorController : MonoBehaviour {
     private MeshRenderer myGun;
     private MeshRenderer myWater;
+    private string colorname;
     void Start () {
+        colorname = "";
         myGun = transform.Find("Gun").GetComponentInChildren<MeshRenderer>();
         myWater = transform.Find("WaterEffect").GetComponentInChildren<MeshRenderer>();
     }
@@ -22,7 +24,13 @@ public class GunColorController : MonoBehaviour {
 
         SetMaterialOnGameObject(myGun, 0, otherGunColorProvider.gunColor);
         SetMaterialOnGameObject(myWater, 0, otherGunColorProvider.gunColor);
+        colorname = otherGunColorProvider.gunColor.name;
 
+    }
+
+    public string getColorElementName()
+    {
+        return colorname;
     }
 
     private void SetMaterialOnGameObject(MeshRenderer targetMeshRenderer, int pos, Material newMaterial)

@@ -9,7 +9,7 @@ public class PlayMovie : StoryGameObject {
     public VideoClip nameOfClip;
     public bool isLooping = false;
 
-    public override bool Exectue()
+    public override bool Execute()
     {
         var videoTargetObj = transform.Find(videoTarget);
 

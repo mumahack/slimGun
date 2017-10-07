@@ -53,4 +53,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myAudioClip: {fileID: 8300000, guid: 7865d692230b4114d929926d2cf1630d, type: 3}
   nameOfAudioSource: /Main Camera
-  waitForEnd: 0
+  waitForEnd: 1

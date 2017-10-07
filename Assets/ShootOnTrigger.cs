@@ -87,6 +87,26 @@ public class ShootOnTrigger : MonoBehaviour {
 
     private void HitObject(GameObject targetGameObject)
     {
-        targetGameObject.SetActive(false);
+        // targetGameObject.SetActive(false);
+        ChangeVisbility(targetGameObject, false);
+    }
+
+    private void ChangeVisbility(GameObject targetObject, bool isVisible)
+    {
+        var element = targetObject.GetComponent<MeshRenderer>();
+        if (element != null)
+            element.enabled = isVisible;
+
+        var elements = targetObject.GetComponentsInChildren<MeshRenderer>();
+        foreach (var e in elements)
+            e.enabled = isVisible;
+
+        var colliders = targetObject.GetComponentsInChildren<Collider>();
+        foreach (var c in colliders)
+            c.enabled = isVisible;
+
+        var collider = targetObject.GetComponent<Collider>();
+        if (collider != null)
+            collider.enabled = isVisible;
     }
 }

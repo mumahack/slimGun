@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4633607349442852}
   - component: {fileID: 114157224634377102}
   m_Layer: 0
-  m_Name: RobotAufdemBodenSiehstDuEinenRotenFarbeimer
+  m_Name: SchiesseAufRot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -51,6 +51,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 925b6d201d8014746999e5f086472c93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myAudioClip: {fileID: 8300000, guid: cf722aefcdc1c534cbddf20816976e63, type: 3}
+  myAudioClip: {fileID: 8300000, guid: 3c311f5711da8d74687024779f983dc2, type: 3}
   nameOfAudioSource: /Main Camera
-  waitForEnd: 1
+  waitForEnd: 0

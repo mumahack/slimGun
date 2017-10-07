@@ -7,7 +7,7 @@ public class RotateObjectX : StoryGameObject {
     public string targetObject;
     public AnimationClip animClip;
 
-    public override bool Exectue()
+    public override bool Execute()
     {
         var obj = transform.Find(targetObject);
 

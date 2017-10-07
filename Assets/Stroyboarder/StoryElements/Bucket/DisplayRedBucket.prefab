@@ -52,4 +52,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameOfObject: /Bucket/BucketRed
-  isVisible: 0
+  isVisible: 1

@@ -7,7 +7,7 @@ public interface IStoryboardElement {
 
     IStoryBoardController controller { get; set; }
 
-    bool Exectue();
+    bool Execute();
 
     bool ShouldWaitLonger();
 

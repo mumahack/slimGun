@@ -11,7 +11,7 @@ public class StoryGameObject : MonoBehaviour, IStoryboardElement {
     public bool givesFeedback { get; set; }
        
 
-    virtual public bool Exectue()
+    virtual public bool Execute()
     {
         throw new NotImplementedException();
     }
