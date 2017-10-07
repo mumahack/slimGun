@@ -1,0 +1,232 @@
+fileFormatVersion: 2
+guid: 4bfbde89ae7aaa445818a8075ee8b209
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bip01 Belly
+    100002: Bip01 Bottom_L
+    100004: Bip01 Bottom_R
+    100006: Bip01 Footsteps
+    100008: Bip_woman
+    100010: Bip_woman_Belly
+    100012: Bip_woman_Boob_L
+    100014: Bip_woman_Boob_L 1
+    100016: Bip_woman_Boob_R
+    100018: Bip_woman_Boob_R 1
+    100020: Bip_woman_Bottom_L
+    100022: Bip_woman_Bottom_R
+    100024: Bip_woman_Head
+    100026: Bip_woman_HeadNub
+    100028: Bip_woman_L_Calf
+    100030: Bip_woman_L_Clavicle
+    100032: Bip_woman_L_Finger0
+    100034: Bip_woman_L_Finger01
+    100036: Bip_woman_L_Finger02
+    100038: Bip_woman_L_Finger0Nub
+    100040: Bip_woman_L_Finger1
+    100042: Bip_woman_L_Finger11
+    100044: Bip_woman_L_Finger12
+    100046: Bip_woman_L_Finger1Nub
+    100048: Bip_woman_L_Finger2
+    100050: Bip_woman_L_Finger21
+    100052: Bip_woman_L_Finger22
+    100054: Bip_woman_L_Finger2Nub
+    100056: Bip_woman_L_Finger3
+    100058: Bip_woman_L_Finger31
+    100060: Bip_woman_L_Finger32
+    100062: Bip_woman_L_Finger3Nub
+    100064: Bip_woman_L_Finger4
+    100066: Bip_woman_L_Finger41
+    100068: Bip_woman_L_Finger42
+    100070: Bip_woman_L_Finger4Nub
+    100072: Bip_woman_L_Foot
+    100074: Bip_woman_L_Forearm
+    100076: Bip_woman_L_ForeTwist
+    100078: Bip_woman_L_Hand
+    100080: Bip_woman_L_Thigh
+    100082: Bip_woman_L_Toe0
+    100084: Bip_woman_L_Toe0Nub
+    100086: Bip_woman_L_UpperArm
+    100088: Bip_woman_Neck
+    100090: Bip_woman_Pelvis
+    100092: Bip_woman_R_Calf
+    100094: Bip_woman_R_Clavicle
+    100096: Bip_woman_R_Finger0
+    100098: Bip_woman_R_Finger01
+    100100: Bip_woman_R_Finger02
+    100102: Bip_woman_R_Finger0Nub
+    100104: Bip_woman_R_Finger1
+    100106: Bip_woman_R_Finger11
+    100108: Bip_woman_R_Finger12
+    100110: Bip_woman_R_Finger1Nub
+    100112: Bip_woman_R_Finger2
+    100114: Bip_woman_R_Finger21
+    100116: Bip_woman_R_Finger22
+    100118: Bip_woman_R_Finger2Nub
+    100120: Bip_woman_R_Finger3
+    100122: Bip_woman_R_Finger31
+    100124: Bip_woman_R_Finger32
+    100126: Bip_woman_R_Finger3Nub
+    100128: Bip_woman_R_Finger4
+    100130: Bip_woman_R_Finger41
+    100132: Bip_woman_R_Finger42
+    100134: Bip_woman_R_Finger4Nub
+    100136: Bip_woman_R_Foot
+    100138: Bip_woman_R_Forearm
+    100140: Bip_woman_R_ForeTwist
+    100142: Bip_woman_R_Hand
+    100144: Bip_woman_R_Thigh
+    100146: Bip_woman_R_Toe0
+    100148: Bip_woman_R_Toe0Nub
+    100150: Bip_woman_R_UpperArm
+    100152: Bip_woman_Spine
+    100154: Bip_woman_Spine1
+    100156: Bip_woman_Spine2
+    100158: //RootNode
+    400000: Bip01 Belly
+    400002: Bip01 Bottom_L
+    400004: Bip01 Bottom_R
+    400006: Bip01 Footsteps
+    400008: Bip_woman
+    400010: Bip_woman_Belly
+    400012: Bip_woman_Boob_L
+    400014: Bip_woman_Boob_L 1
+    400016: Bip_woman_Boob_R
+    400018: Bip_woman_Boob_R 1
+    400020: Bip_woman_Bottom_L
+    400022: Bip_woman_Bottom_R
+    400024: Bip_woman_Head
+    400026: Bip_woman_HeadNub
+    400028: Bip_woman_L_Calf
+    400030: Bip_woman_L_Clavicle
+    400032: Bip_woman_L_Finger0
+    400034: Bip_woman_L_Finger01
+    400036: Bip_woman_L_Finger02
+    400038: Bip_woman_L_Finger0Nub
+    400040: Bip_woman_L_Finger1
+    400042: Bip_woman_L_Finger11
+    400044: Bip_woman_L_Finger12
+    400046: Bip_woman_L_Finger1Nub
+    400048: Bip_woman_L_Finger2
+    400050: Bip_woman_L_Finger21
+    400052: Bip_woman_L_Finger22
+    400054: Bip_woman_L_Finger2Nub
+    400056: Bip_woman_L_Finger3
+    400058: Bip_woman_L_Finger31
+    400060: Bip_woman_L_Finger32
+    400062: Bip_woman_L_Finger3Nub
+    400064: Bip_woman_L_Finger4
+    400066: Bip_woman_L_Finger41
+    400068: Bip_woman_L_Finger42
+    400070: Bip_woman_L_Finger4Nub
+    400072: Bip_woman_L_Foot
+    400074: Bip_woman_L_Forearm
+    400076: Bip_woman_L_ForeTwist
+    400078: Bip_woman_L_Hand
+    400080: Bip_woman_L_Thigh
+    400082: Bip_woman_L_Toe0
+    400084: Bip_woman_L_Toe0Nub
+    400086: Bip_woman_L_UpperArm
+    400088: Bip_woman_Neck
+    400090: Bip_woman_Pelvis
+    400092: Bip_woman_R_Calf
+    400094: Bip_woman_R_Clavicle
+    400096: Bip_woman_R_Finger0
+    400098: Bip_woman_R_Finger01
+    400100: Bip_woman_R_Finger02
+    400102: Bip_woman_R_Finger0Nub
+    400104: Bip_woman_R_Finger1
+    400106: Bip_woman_R_Finger11
+    400108: Bip_woman_R_Finger12
+    400110: Bip_woman_R_Finger1Nub
+    400112: Bip_woman_R_Finger2
+    400114: Bip_woman_R_Finger21
+    400116: Bip_woman_R_Finger22
+    400118: Bip_woman_R_Finger2Nub
+    400120: Bip_woman_R_Finger3
+    400122: Bip_woman_R_Finger31
+    400124: Bip_woman_R_Finger32
+    400126: Bip_woman_R_Finger3Nub
+    400128: Bip_woman_R_Finger4
+    400130: Bip_woman_R_Finger41
+    400132: Bip_woman_R_Finger42
+    400134: Bip_woman_R_Finger4Nub
+    400136: Bip_woman_R_Foot
+    400138: Bip_woman_R_Forearm
+    400140: Bip_woman_R_ForeTwist
+    400142: Bip_woman_R_Hand
+    400144: Bip_woman_R_Thigh
+    400146: Bip_woman_R_Toe0
+    400148: Bip_woman_R_Toe0Nub
+    400150: Bip_woman_R_UpperArm
+    400152: Bip_woman_Spine
+    400154: Bip_woman_Spine1
+    400156: Bip_woman_Spine2
+    400158: //RootNode
+    7400000: MOCAP_DemoBendOver_DemoShoulder_74
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
