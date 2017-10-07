@@ -16,6 +16,11 @@ public class StoryBoardController : MonoBehaviour, IStoryBoardController {
     }
 	
 	void Update () {
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            currentPosition = 0;
+            controllerRuns = true;
+        }
         do
         {
             if (elements != null && controllerRuns)
